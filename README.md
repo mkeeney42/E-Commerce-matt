@@ -17,10 +17,10 @@ Clone the repository:
 Copygit clone https://github.com/your-username/e-commerce-back-end.git
 
 Navigate to the project directory:
-Copycd e-commerce-back-end
+Copy - cd e-commerce-back-end
 
 Install dependencies:
-Copynpm install
+Copy - npm install
 
 Create a .env file in the root directory and add your PostgreSQL credentials:
 CopyDB_NAME='your_database_name'
@@ -31,13 +31,13 @@ Create the database using the schema file:
 Copypsql -U your_postgres_username -d your_database_name -f db/schema.sql
 
 Seed the database:
-Copynpm run seed
+Copy - npm run seed
 
 
 ## Usage
 
 Start the server:
-Copynpm start
+Copy - npm start
 
 Use an API client like Insomnia to test the routes (see API Routes section).
 
